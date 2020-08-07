@@ -22,6 +22,11 @@ body {
 .black-bg{
       background-color: #000;
 }
+.whats-going-on{
+		width: 20%;
+    position: absolute;
+		margin: -50px 0px 0px -150px;
+}
 .asteroid-bg{
   background-image:url("../images/asteroid-bg.png");
   background-size: cover;
@@ -569,7 +574,7 @@ h1, h2, h3, h4, h5,
 
 /* Navbar */
 .site-logo {
-  position: relative;
+  /*position: relative;*/
   font-weight: 900;
   font-size: 1.3rem;
   text-transform: uppercase; }

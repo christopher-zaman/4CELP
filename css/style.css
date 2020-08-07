@@ -23,9 +23,9 @@ body {
       background-color: #000;
 }
 .whats-going-on{
-		width: 20%;
-    position: absolute;
-    margin: 0px 0px 0px -650px;
+	width: 8%;
+	position: absolute;
+	margin: -59px 0px 0px -650px;
 }
 .asteroid-bg{
   background-image:url("../images/asteroid-bg.png");

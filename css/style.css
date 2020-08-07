@@ -29,8 +29,26 @@ body {
 .google-font-electro{
   font-family: 'Electrolize', sans-serif;
 }
+.google-font-quick-sand{
+	font-family: 'Quicksand', sans-serif;
+}
+.hide-this{
+	display:none;
+}
+.add-40-width-40-height{
+	height:40px;
+	width:40px;
+}
 .four-celp-footer-image-bg{
   background-image:url("../images/footer-image-four-celp.png");
+  background-size: cover;
+}
+.dark-matter-image-bg{
+  background-image:url("../images/dark-matter.png");
+  background-size: cover;
+}
+.contact-space-bg{
+	background-image:url("../images/contact-space-bg.png");
   background-size: cover;
 }
 .chat{
@@ -1214,4 +1232,39 @@ ul{
 }
 .contact-bg{
   background-color: #f0eeda;
+}
+.letter-spacing-3px{
+	letter-spacing: 3px;
+  font-size: inherit;
+}
+.period{
+	font-size: 1.1em;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.hide-on-mobile{
+		display:none;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+	.hide-on-mobile{
+		display:none;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
 }
